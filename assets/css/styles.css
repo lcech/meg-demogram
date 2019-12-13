@@ -1,0 +1,23 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+  padding-top: 3.5rem;
+}
+
+.jumbotron {
+  background: url(/assets/img/finance-bg.jpg) no-repeat 0 50%;
+  background-size: cover;
+  border-bottom: 1px solid #e7e7e7;
+  text-shadow: White 0.1em 0.1em 0.3em;
+}
+
+.tab-content.card {
+  border-top: 0;
+  border-radius: 0 0 4px 4px;
+}
+
+.input-medium {
+  max-width: 15em;
+}
+.date {
+  max-width: 9em;
+}
